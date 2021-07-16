@@ -11,7 +11,7 @@
     "serve:ssr": "node dist/hrt3/server/main.js",
     "build:ssr": "ng build && ng run hrt3:server",
     "prerender": "ng run hrt3:prerender",
-    "start:heroku":"node dist/server",
+    "start:heroku": "node dist/hrt3/server/main.js",
     "postinstall": "npm run build:ssr"
   },
   "private": true,
